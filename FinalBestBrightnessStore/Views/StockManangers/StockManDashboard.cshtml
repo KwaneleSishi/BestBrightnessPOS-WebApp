@@ -1,0 +1,51 @@
+﻿@model List<FinalBestBrightnessStore.Models.Product>
+
+@{
+    Layout = "~/Views/Shared/StockManLayout.cshtml";
+}
+<style>
+    body {
+        background-color: #6b9080;
+    }
+</style>
+
+<h3>Stock Manager Dashboard</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card" style="width: 400px; border-radius: 10px;">
+                <div class="card-header">
+                    <h4>Products</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    @foreach (var categoryGroup in Model.GroupBy(p => p.Category))
+                    {
+                        <li class="list-group-item">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#category-@categoryGroup.Key.Replace(" ", "")">
+                                @categoryGroup.Key
+                            </button>
+                            <ul class="list-group list-group-flush collapse" id="category-@categoryGroup.Key.Replace(" ", "")">
+                                @foreach (var product in categoryGroup)
+                                {
+                                    <li class="list-group-item @(product.quantinty < 15 ? "list-group-item-danger" : "")">
+                                        @product.productName - @product.quantinty
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mt-3">
+        <a href="/products" class="btn btn-primary">Manage Products</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+}

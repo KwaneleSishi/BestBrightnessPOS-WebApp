@@ -1,0 +1,271 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SalespersonDashboard
+@{
+    Layout = "~/Views/Shared/SalespersonLayout.cshtml";
+}
+<style>
+    body {
+        background-color: #6b9080;
+    }
+
+    #ConfirmOrder {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+
+    }
+
+
+</style>
+
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salesperson Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left side with input types and buttons -->
+        <div class="col-md-5">
+            <div class="card p-3">
+                <h3 class="card-title">Product Selection</h3>
+                <div class="row">
+                    <div class="col">
+                        <br />
+                        <div class="mb-3">
+                            <label for="prodName" class="form-label">Product Name</label>
+                            <select class="form-select" id="prodName" required="required">
+                                <option selected disabled>Select a product</option>
+                                @foreach (var product in Model.Products)
+                                {
+                                    <option value="@product.price" data-product-id="@product.prodId" data-product-quantity="@product.quantinty">
+                                        @product.productName
+                                    </option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="prodPrice" class="form-label">Product Price</label>
+                            <input type="text" class="form-control" id="prodPrice" required="required" readonly>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="prodQty" class="form-label">Product Qty</label>
+                            <input type="number" class="form-control" id="prodQty" required="required">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <br />
+                    <label id="ErrMsg"></label><br />
+                    <button type="button" class="btn btn-primary" id="addToCart">Add Sale</button>
+                    <button type="button" class="btn btn-primary" id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side with customer order table -->
+        <div class="col-md-7">
+            <div class="card p-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="m-lg-2">Customer Order</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-hover" id="cartTable">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h3 id="totalPrice"></h3>
+                        <div class="form-group">
+                            <label for="amountPaid">Amount Paid</label>
+                            <input type="number" class="form-control" id="amountPaid" required="required" />
+                        </div>
+                        <h4 id="changeAmount"></h4>
+                        <label id="paymentErrMsg" style="color: red;"></label>
+                    </div>
+                    <div class="col-6 d-grid">
+                        <button type="button" class="btn btn-primary btn-block text-white" id="ConfirmOrder">Record Sale</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    let totalAmount = 0;
+    let originalQuantities = {};
+
+    $('#prodName').change(function () {
+        const selectedOption = $(this).find('option:selected');
+        const price = selectedOption.val();
+        const quantity = selectedOption.data('product-quantity');
+
+        $('#prodPrice').val(price);
+    });
+
+    $('#addToCart').click(function () {
+        const selectedOption = $('#prodName').find('option:selected');
+        const name = selectedOption.text();
+        const price = parseFloat($('#prodPrice').val());
+        const qty = parseInt($('#prodQty').val());
+        const productId = selectedOption.data('product-id');
+
+        if (isNaN(qty) || qty <= 0) {
+            $('#ErrMsg').text('Quantity is required and must be greater than zero.');
+            return;
+        }
+
+        const total = price * qty;
+        totalAmount += total;
+
+        const existingRow = $('#cartTable tbody tr:contains(' + name + ')');
+
+        if (existingRow.length > 0) {
+            const existingQty = parseInt(existingRow.find('.cart-quantity').text());
+            const newQty = existingQty + qty;
+            existingRow.find('.cart-quantity').text(newQty);
+            existingRow.find('.cart-total').text((newQty * price).toFixed(2));
+        } else {
+            $('#cartTable tbody').append(`
+                    <tr data-product-name="${name}" data-product-price="${price}">
+                        <td>${name}</td>
+                        <td>${price.toFixed(2)}</td>
+                        <td class="cart-quantity">${qty}</td>
+                        <td class="cart-total">${total.toFixed(2)}</td>
+                        <td><button class="btn btn-secondary edit-product">Edit</button></td>
+                        <td><button class="btn btn-danger remove-product">Remove</button></td>
+                    </tr>
+                `);
+        }
+
+        $('#totalPrice').text('Total Price: ' + totalAmount.toFixed(2));
+
+        const originalQty = originalQuantities[productId] || parseInt(selectedOption.data('product-quantity'));
+        const newQty = originalQty - qty;
+        selectedOption.data('product-quantity', newQty);
+        originalQuantities[productId] = originalQty;
+
+        $('#prodName').val('').change();
+        $('#prodPrice').val('');
+        $('#prodQty').val('');
+        $('#ErrMsg').text('');
+    });
+
+    $(document).on('click', '.edit-product', function () {
+        const row = $(this).closest('tr');
+        const name = row.find('td:first').text();
+        const price = parseFloat(row.find('td:eq(1)').text());
+        const quantity = parseInt(row.find('td:eq(2)').text());
+
+        $('#prodName').val(name);
+        $('#prodPrice').val(price);
+        $('#prodQty').val(quantity);
+
+        row.remove();
+
+        totalAmount -= price * quantity;
+        $('#totalPrice').text('Total Price: ' + totalAmount.toFixed(2));
+    });
+
+    $(document).on('click', '.remove-product', function () {
+        const row = $(this).closest('tr');
+        const price = parseFloat(row.find('td:eq(1)').text());
+        const quantity = parseInt(row.find('td:eq(2)').text());
+
+        totalAmount -= price * quantity;
+        $('#totalPrice').text('Total Price: ' + totalAmount.toFixed(2));
+
+        row.remove();
+    });
+
+    $('#ConfirmOrder').click(function () {
+        let orderItems = [];
+        let totalPrice = totalAmount;
+        let amountPaid = parseFloat($('#amountPaid').val());
+
+        if (isNaN(amountPaid) || amountPaid <= 0) {
+            $('#paymentErrMsg').text('Please enter a valid amount.');
+            return;
+        }
+
+        if (amountPaid < totalPrice) {
+            $('#paymentErrMsg').text('Amount paid is not enough.');
+            return;
+        }
+
+        let change = amountPaid - totalPrice;
+        $('#changeAmount').text('Change: ' + change.toFixed(2));
+
+        $('#cartTable tbody tr').each(function () {
+            let productName = $(this).find('td').eq(0).text();
+            let price = parseFloat($(this).find('td').eq(1).text());
+            let quantity = parseInt($(this).find('td').eq(2).text());
+
+            let productId;
+            $('#prodName option').each(function () {
+                if ($(this).text() === productName) {
+                    productId = $(this).data('product-id');
+                }
+            });
+
+            orderItems.push({
+                ProdId: productId,
+                Quantity: quantity,
+                Price: price
+            });
+        });
+
+        $.ajax({
+            url: '@Url.Action("ConfirmOrder", "SalesPersons")',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(orderItems),
+            success: function (response) {
+                alert(response);
+                $('#cartTable tbody').empty();
+                $('#totalPrice').text('');
+                $('#amountPaid').val('');
+                $('#changeAmount').text('');
+            },
+            error: function (xhr, status, error) {
+                alert('Error confirming order: ' + xhr.responseText);
+            }
+        });
+    });
+
+    $('#reset').click(function () {
+        $('#prodName').val('').change();
+        $('#prodPrice').val('');
+        $('#prodQty').val('');
+        $('#cartTable tbody').empty();
+        $('#totalPrice').text('');
+        totalAmount = 0;
+        $('#ErrMsg').text('');
+    });
+</script>
+
+

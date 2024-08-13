@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\reports\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\reports\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\reports\\generatepdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\reports\\generatepdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\salespersons\\salespersondashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\salespersons\\salespersondashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\shared\\salespersonlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\shared\\salespersonlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\salespersons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\salespersons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\salespersons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\salespersons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\admins\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\admins\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\stockmanangers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\stockmanangers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\stockmanangers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\stockmanangers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\shared\\stockmanlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\shared\\stockmanlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\stockmanangers\\stockmandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\stockmanangers\\stockmandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|c:\\users\\hp\\documents\\development system 2\\test 3 - assignment\\finalbestbrightnessstore\\finalbestbrightnessstore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FA05253-5B76-45D9-9009-7E8825342F66}|FinalBestBrightnessStore\\FinalBestBrightnessStore.csproj|solutionrelative:finalbestbrightnessstore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\SalesPersons\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\Create.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\SalesPersons\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAEUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:26:55.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\StockManangers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\Create.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\StockManangers\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:23:02.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalespersonLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Shared\\SalespersonLayout.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Shared\\SalespersonLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Shared\\SalespersonLayout.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Shared\\SalespersonLayout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:13:43.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalespersonDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\SalespersonDashboard.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\SalesPersons\\SalespersonDashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\SalespersonDashboard.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\SalesPersons\\SalespersonDashboard.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T11:13:00.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Reports\\Report.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Reports\\Report.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Reports\\Report.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Reports\\Report.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T10:47:42.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeneratePdf.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Reports\\GeneratePdf.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Reports\\GeneratePdf.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Reports\\GeneratePdf.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Reports\\GeneratePdf.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T07:45:58.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Admins\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Admins\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Admins\\AdminDashboard.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Admins\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:29:48.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "FinalBestBrightnessStore\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-29T07:26:51.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\SalesPersons\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\SalesPersons\\Index.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\SalesPersons\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T10:37:55.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StockManLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Shared\\StockManLayout.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Shared\\StockManLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Shared\\StockManLayout.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Shared\\StockManLayout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:00:42.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StockManDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\StockManDashboard.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\StockManangers\\StockManDashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\StockManDashboard.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\StockManangers\\StockManDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T11:53:24.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\StockManangers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\StockManangers\\Index.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\StockManangers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T10:45:14.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T11:23:58.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinalBestBrightnessStore\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\Development System 2\\Test 3 - Assignment\\FinalBestBrightnessStore\\FinalBestBrightnessStore\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "FinalBestBrightnessStore\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T11:42:58.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
